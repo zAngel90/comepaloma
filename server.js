@@ -14,7 +14,7 @@ const POCKETBASE_URL = 'https://vc538717831202.coderick.net';
 
 // Middleware
 app.use(cors({
-  origin: ['http://localhost:5173', 'https://vc538717831202.coderick.net'],
+  origin: ['http://localhost:5173', 'https://vc538717831202.coderick.net', 'https://preview-vc538717831202.coderick.net'],
   credentials: true
 }));
 app.use(express.json());
