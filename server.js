@@ -220,8 +220,8 @@ app.post('/api/subscription', async (req, res) => {
         interval_count: 0,
         initial_cycles: {
           count: 0,
-          has_initial_charge: true,
-          amount: 999,
+          has_initial_charge: false,
+          amount: 0,
           interval_unit_time: 3
         }
       });
